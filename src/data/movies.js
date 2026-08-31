@@ -1,0 +1,192 @@
+const poster = (n) => `/assets/posters/poster-${n}.png`;
+const thumbnail = (n) => `/assets/thumbnails/thumb-${n}.png`;
+
+export const continueWatching = [
+  {
+    id: "cw-1",
+    title: "Don't Look Up",
+    image: thumbnail(31),
+    rating: 4.5,
+    episodeLabel: "Episode 3",
+    progress: 65,
+    duration: "1j 42m",
+    genres: ["Komedi", "Sains Fiksi"],
+  },
+  {
+    id: "cw-2",
+    title: "The Batman",
+    image: thumbnail(12),
+    rating: 4.2,
+    episodeLabel: "Episode 4",
+    progress: 40,
+    duration: "2j 56m",
+    genres: ["Aksi", "Kriminal", "Drama"],
+  },
+  {
+    id: "cw-3",
+    title: "Blue Lock",
+    image: thumbnail(5),
+    rating: 4.6,
+    episodeLabel: "Episode 1",
+    progress: 20,
+    duration: "24m",
+    genres: ["Olahraga", "Drama"],
+  },
+  {
+    id: "cw-4",
+    title: "A Man Called Otto",
+    image: thumbnail(9),
+    rating: 4.4,
+    episodeLabel: "Episode 9",
+    progress: 80,
+    duration: "2j 06m",
+    genres: ["Drama", "Komedi"],
+  },
+];
+
+export const topRating = [
+  {
+    id: "tr-1",
+    title: "Suzume",
+    image: poster(14),
+    episodeBaru: true,
+    ageRating: "13+",
+    episodeInfo: "12 Episode",
+    genres: ["Petualangan", "Fantasi"],
+  },
+  {
+    id: "tr-2",
+    title: "Jurassic World",
+    image: poster(25),
+    ageRating: "13+",
+    episodeInfo: "2j 27m",
+    genres: ["Aksi", "Petualangan"],
+  },
+  {
+    id: "tr-3",
+    title: "Sonic the Hedgehog",
+    image: poster(29),
+    ageRating: "7+",
+    episodeInfo: "1j 58m",
+    genres: ["Keluarga", "Komedi"],
+  },
+  {
+    id: "tr-4",
+    title: "All Of Us Are Dead",
+    image: poster(9),
+    ageRating: "13+",
+    episodeInfo: "16 Episode",
+    genres: ["Misteri", "Kriminal", "Fantasi"],
+  },
+  {
+    id: "tr-5",
+    title: "Big Hero 6",
+    image: poster(12),
+    topTen: true,
+    ageRating: "7+",
+    episodeInfo: "11 Episode",
+    genres: ["Animasi", "Keluarga"],
+  },
+];
+
+export const filmTrending = [
+  {
+    id: "ft-1",
+    title: "The Tomorrow War",
+    image: poster(7),
+    topTen: true,
+    ageRating: "17+",
+    episodeInfo: "4 Episode",
+    genres: ["Aksi", "Sains Fiksi"],
+  },
+  {
+    id: "ft-2",
+    title: "Ant-Man Quantumania",
+    image: poster(16),
+    topTen: true,
+    ageRating: "13+",
+    episodeInfo: "5 Episode",
+    genres: ["Aksi", "Petualangan"],
+  },
+  {
+    id: "ft-3",
+    title: "Guardians of the Galaxy",
+    image: poster(30),
+    topTen: true,
+    ageRating: "13+",
+    episodeInfo: "12 Episode",
+    genres: ["Aksi", "Komedi"],
+  },
+  {
+    id: "ft-4",
+    title: "A Man Called Otto (Trending)",
+    image: poster(10),
+    topTen: true,
+    ageRating: "13+",
+    episodeInfo: "9 Episode",
+    genres: ["Drama", "Komedi"],
+  },
+  {
+    id: "ft-5",
+    title: "The Little Mermaid",
+    image: poster(6),
+    topTen: true,
+    ageRating: "7+",
+    episodeInfo: "8 Episode",
+    genres: ["Fantasi", "Keluarga"],
+  },
+];
+
+export const rilisBaru = [
+  {
+    id: "rb-1",
+    title: "The Little Mermaid (Rilis Baru)",
+    image: poster(6),
+    topTen: true,
+    ageRating: "7+",
+    episodeInfo: "45 Episode",
+    genres: ["Fantasi", "Keluarga"],
+  },
+  {
+    id: "rb-2",
+    title: "Duty After School",
+    image: poster(17),
+    episodeBaru: true,
+    ageRating: "18+",
+    episodeInfo: "12 Episode",
+    genres: ["Aksi", "Drama"],
+  },
+  {
+    id: "rb-3",
+    title: "Big Hero 6 (Rilis Baru)",
+    image: poster(12),
+    topTen: true,
+    ageRating: "7+",
+    episodeInfo: "21 Episode",
+    genres: ["Animasi", "Keluarga"],
+  },
+  {
+    id: "rb-4",
+    title: "All Of Us Are Dead (Rilis Baru)",
+    image: poster(9),
+    episodeBaru: true,
+    ageRating: "13+",
+    episodeInfo: "16 Episode",
+    genres: ["Misteri", "Kriminal", "Fantasi"],
+  },
+  {
+    id: "rb-5",
+    title: "Missing",
+    image: poster(13),
+    ageRating: "13+",
+    episodeInfo: "6 Episode",
+    genres: ["Thriller", "Misteri"],
+  },
+];
+
+export const heroContent = {
+  title: "Duty After School",
+  description:
+    "Sebuah benda tak dikenal mengambil alih dunia. Dalam keputusasaan, Departemen Pertahanan mulai merekrut lebih banyak tentara, termasuk siswa sekolah menengah. Mereka pun segera menjadi pejuang garis depan dalam perang.",
+  ageRating: "18+",
+};
